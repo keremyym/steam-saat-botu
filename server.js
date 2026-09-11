@@ -4,7 +4,7 @@ const app = Express();
 const client = new SteamUser();
 
 const accountName = 'keremyldrr1'; 
-const password = '0339SAdoku';
+const password = '0339Sadoku';
 
 // Sunucunun %100 algılayacağı kesin ve gerçek oyun listesi
 const gamesToIdle = [730, 570, 578080];
