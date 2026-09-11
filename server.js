@@ -4,14 +4,10 @@ const app = Express();
 const client = new SteamUser();
 
 const accountName = 'keremyldrr1'; 
-const password = '0339Sadoku';
+const password = '0339SAdoku';
 
-// Sayıları harf olarak yazdım, sistem silemez!
-const cs2 = "730";
-const dota2 = "570";
-const pubg = "578080";
-
-const gamesToIdle = String(cs2 + "," + dota2 + "," + pubg).split(",");
+// Sunucunun %100 algılayacağı kesin ve gerçek oyun listesi
+const gamesToIdle = [730, 570, 578080];
 
 client.logOn({ accountName, password });
 
